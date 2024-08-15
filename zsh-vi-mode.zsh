@@ -1504,10 +1504,10 @@ function zvm_navigation_handler() {
       '$') cmd=(zle vi-end-of-line);;
       ' ') cmd=(zle vi-forward-char);;
       '0') cmd=(zle vi-digit-or-beginning-of-line);;
-      'h') cmd=(zle vi-backward-char);;
-      'j') cmd=(zle down-line-or-history);;
-      'k') cmd=(zle up-line-or-history);;
-      'l') cmd=(zle vi-forward-char);;
+      'j') cmd=(zle vi-backward-char);;
+      'k') cmd=(zle down-line-or-history);;
+      'l') cmd=(zle up-line-or-history);;
+      ';') cmd=(zle vi-forward-char);;
       'w') cmd=(zle vi-forward-word);;
       'W') cmd=(zle vi-forward-blank-word);;
       'e') cmd=(zle vi-forward-word-end);;
